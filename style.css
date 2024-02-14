@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+  }
+  body {
+    height: 100vh;
+    background-color: #4b4b4c;
+  }
+
+  .calculator {
+    width: 400px;
+    background-color: #071013;
+    padding: 50px 30px 20px 35px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    box-shadow: 0 20px 50px rgba(0, 5, 24, 0.4);
+  }
+
+  .display {
+    width: 100%;
+  }
+
+  .display input {
+    width: 100%;
+    padding: 15px 10px;
+    text-align: right;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 35px;
+  }
+
+  .display input::placeholder {
+    color: #9490ac;
+  }
+  
+  .operator {
+    background-color: #f66e06;
+  }
+
+  button {
+    background-color: #313131;
+    font-size: 20px;
+    padding: 17px;
+    height: 60px;
+    margin: 8px;
+    width: 60px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    border-radius: 10px;
+  }
+
+  .equalBtn {
+    border-radius: 42px;
+    background-color: #f66e06;
+  }
+
+  .equalBtn:hover {
+    background-color: rgb(166, 0, 255);
+  }
+
+  .operator:hover {
+    background-color: #06f6dedb;
+  }
+  
+  button:hover {
+    background-color: #fbfbf5ac;
+  }
+  
+  .footer {
+    margin-top: 10%;
+  }
+  
+  .brand {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .color {
+    font-size: 15px;
+    color: white;
+    margin-right: 5px;
+    text-decoration: underline;
+  }
+  span:hover {
+    color: blue;
+    padding-bottom: 6px;
+  }
+  
